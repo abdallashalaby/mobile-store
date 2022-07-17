@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+.card-img-top {
+    padding: 50px;
+    transition: transform 1s;
+    margin: 0 auto;
+}
+
+.card-img-top:hover {
+    -ms-transform: scale(2);
+    /* IE 9 */
+    -webkit-transform: scale(2);
+    /* Safari 3-8 */
+    transform: scale(2);
+}
+
+.navbar {
+    margin-bottom: 50px;
+}
+
+.container .row .col img {
+    height: 180px;
+}
